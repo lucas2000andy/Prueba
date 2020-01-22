@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="estilo.css">
+    <title>Motobombas!!!!!!!!!!!</title>
+</head>
+<body>
+<h1>Bomberos && Motobombas</h1>
+
+<div class="container">
+
+<div class="valu">
+
+    <div class="dato1">
+
+        <label class="nombre"> Nombre</label>
+        <input type="text" id="nombre">
+    </div>
+
+    <div class="dato2">
+
+        <label class="nacimiento">Año de Nacimiento</label>
+
+        <input type="date" id="nacimiento">
+    </div>
+
+    <button id="agregarBombero" onclick="agregarBombero()">Agregar</button>
+
+    <div class="callBombero" id="callBombero">
+
+    </div>
+</div>
+
+<div class="valu1">
+
+    <div class="dato1">
+
+        <label class="nameMoto"> Motobomba</label>
+
+        <input type="text" id="nameMoto">
+    </div>
+   
+    <button id="agregarMotobomba" onclick="agregarMotobomba()">Agregar</button>
+
+    <div class="callBombero" id="callMotobomba">
+    </div>
+</div>
+</div>
+<br><br>
+
+<button class="botonAsociar" onclick="asociar()">Asociar</button>
+</body>
+<script src="main.js"></script>
+<script src="motoBomba.js"></script>
+<script src="bombero.js"></script>
+</html>

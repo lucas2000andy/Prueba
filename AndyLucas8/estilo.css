@@ -1,0 +1,91 @@
+h1{
+    text-align: center;
+    font-size: 30px;
+    color: rgb(42, 165, 58);
+}
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto;
+}
+.dato2{
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+.dato1{
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.celdas {
+    border: 2px solid rgb(25, 0, 255);
+    background-color: lightpink;
+    padding: 8px;
+    margin: 2px;
+ }
+ .botonAsociar{
+     padding: 3px 5px 3px 5px;
+     font: bolder;
+     font-size: 20px;
+     color: midnightblue;
+ }
+
+.valu{
+    color: blueviolet;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.valu1{
+    color: blueviolet;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+body{
+    background-color: lightblue;
+}
+
+#agregarBombero{
+    background-color: rgb(235, 177, 220); 
+    border: none;
+    color: rgb(112, 7, 68);
+    font-family: monospace;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    width: 20.20%;
+    
+    left: 50%;
+    border: 8px solid ;
+}
+
+.botonAsociar{
+    background-color: rgb(235, 177, 220); 
+    border: none;
+    color: rgb(112, 7, 68);
+    font-family: monospace;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    width: 20.20%;
+    position: absolute;
+    left: 50%;
+    border: 8px solid ;
+}
+
+#agregarMotobomba{
+    background-color: rgb(235, 177, 220); 
+    border: none;
+    color: rgb(112, 7, 68);
+    font-family: monospace;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    width: 20.20%;
+    
+    left: 50%;
+    border: 8px solid ;
+}
